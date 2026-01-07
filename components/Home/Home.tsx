@@ -1,11 +1,16 @@
-import React from 'react'
+"use client"
+
+import { useEffect, useRef } from 'react'
+import Hero from './Hero/Hero'
 
 
 const Home = () => {
+
+  
   return (
-   <div className="overflow-hidden ">
-       
-   </div>
+    <div className="overflow-hidden ">
+      <Hero />
+    </div>
   )
 }
 
