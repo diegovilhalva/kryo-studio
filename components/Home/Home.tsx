@@ -2,6 +2,7 @@
 
 import { useEffect, useRef } from 'react'
 import Hero from './Hero/Hero'
+import About from './About/About'
 
 
 const Home = () => {
@@ -10,6 +11,7 @@ const Home = () => {
   return (
     <div className="overflow-hidden ">
       <Hero />
+      <About />
     </div>
   )
 }
