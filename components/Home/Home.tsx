@@ -5,6 +5,7 @@ import Hero from './Hero/Hero'
 import About from './About/About'
 import Services from './Services/Services'
 import WhyChoose from './WhyCoose/WhyChoose'
+import Price from './Price/Price'
 
 
 const Home = () => {
@@ -16,6 +17,7 @@ const Home = () => {
       <About />
       <Services />
       <WhyChoose />
+      <Price />
     </div>
   )
 }
