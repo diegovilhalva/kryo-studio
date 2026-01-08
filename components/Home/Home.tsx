@@ -3,6 +3,7 @@
 import { useEffect, useRef } from 'react'
 import Hero from './Hero/Hero'
 import About from './About/About'
+import Services from './Services/Services'
 
 
 const Home = () => {
@@ -12,6 +13,7 @@ const Home = () => {
     <div className="overflow-hidden ">
       <Hero />
       <About />
+      <Services />
     </div>
   )
 }
