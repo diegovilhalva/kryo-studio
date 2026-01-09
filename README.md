@@ -126,7 +126,7 @@ export const metadata = {
 
 **Diego Vilhalva**
 Fullstack Web Developer
-🔗 GitHub: [https://github.com/SEU-USUARIO](https://github.com/diegovilhalva)
+🔗 GitHub: [https://github.com/diegovilhalva](https://github.com/diegovilhalva)
 
 
 ## 📜 License
