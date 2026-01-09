@@ -7,6 +7,7 @@ import Services from './Services/Services'
 import WhyChoose from './WhyCoose/WhyChoose'
 import Price from './Price/Price'
 import ClientReview from './ClientReview/ClientReview'
+import Order from './Order/Order'
 
 
 const Home = () => {
@@ -20,6 +21,7 @@ const Home = () => {
       <WhyChoose />
       <Price />
       <ClientReview />
+      <Order />
     </div>
   )
 }
