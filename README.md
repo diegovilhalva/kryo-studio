@@ -9,7 +9,7 @@ The platform showcases services, pricing plans, testimonials, booking options, a
 
 ## ✨ Features
 
-- ⚡ **Next.js 14 + TypeScript**
+- ⚡ **Next.js 16 + TypeScript**
 - 🎨 **Fully responsive UI** with TailwindCSS  
 - 🌗 **Dark/Light mode** included  
 - 🧩 Component-based architecture  
