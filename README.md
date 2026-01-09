@@ -1,36 +1,134 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎨 Kryo Studio — Creative Digital Agency Website
 
-## Getting Started
+Kryo Studio is a modern and responsive digital agency website built with **Next.js**, **TypeScript**, and **TailwindCSS**.  
+The platform showcases services, pricing plans, testimonials, booking options, and global contact information — all wrapped into a clean, high-performance UI with smooth animations.
 
-First, run the development server:
+🚀 **Live Demo:** https://kryo-studio.vercel.app/
+
+---
+
+## ✨ Features
+
+- ⚡ **Next.js 14 + TypeScript**
+- 🎨 **Fully responsive UI** with TailwindCSS  
+- 🌗 **Dark/Light mode** included  
+- 🧩 Component-based architecture  
+- 🎞️ Smooth scroll + AOS animations  
+- 🧾 Dynamic pricing section  
+- ⭐ Client testimonials carousel  
+- 📍 Interactive contact section  
+- 📝 Booking section with CTA  
+- 🖼️ Optimized images using Next/Image  
+- 🔍 SEO metadata included  
+
+---
+
+## 🛠️ Tech Stack
+
+| Technology | Purpose |
+|-----------|---------|
+| **Next.js 14** | App Router, SSR/SSG, optimized routing |
+| **TypeScript** | Type safety and maintainability |
+| **TailwindCSS** | Styling and responsive design |
+| **React Icons** | Iconography |
+| **AOS (Animate On Scroll)** | Smooth UI animations |
+| **React Multi Carousel** | Testimonials slider |
+| **Vercel** | Deployment |
+
+---
+
+## 📂 Project Structure
+
+```
+
+src/
+├─ app/
+│   ├─ page.tsx
+│   ├─ layout.tsx
+│   └─ globals.css
+├─ components/
+│   ├─ Helper/
+│   │   └─ Logo.tsx
+│   ├─ Hero/
+│   ├─ Services/
+│   ├─ Price/
+│   ├─ Booking/
+│   ├─ Reviews/
+│   ├─ Contact/
+│   └─ Footer/
+├─ constant/
+│   └─ constant.ts
+└─ public/
+└─ images/
+
+````
+
+---
+
+## 📦 Installation & Usage
+
+### 1. Clone the repository  
+```bash
+git clone https://github.com/diegovilhalva/kryo-studio.git
+````
+
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+### 3. Run the development server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 4. Build for production
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+npm run build
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🔍 SEO Metadata Example (Next.js)
 
-To learn more about Next.js, take a look at the following resources:
+```ts
+export const metadata = {
+  title: "Kryo Studio — Creative Digital Agency",
+  description:
+    "Kryo Studio is a modern digital agency website built with Next.js, TypeScript, and TailwindCSS. Explore services, pricing, testimonials, and more.",
+  keywords: [
+    "Digital Agency",
+    "Creative Agency",
+    "Next.js Website",
+    "TailwindCSS",
+    "Web Development",
+    "UI Design",
+  ],
+  authors: [{ name: "Diego Vilhalva" }],
+  metadataBase: new URL("https://kryo-studio.vercel.app"),
+  openGraph: {
+    title: "Kryo Studio — Creative Digital Agency",
+    description:
+      "A modern and responsive digital agency website built with Next.js.",
+    url: "https://kryo-studio.vercel.app",
+    siteName: "Kryo Studio",
+    type: "website",
+  },
+};
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+## 🧑‍💻 Author
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+**Diego Vilhalva**
+Fullstack Web Developer
+🔗 GitHub: [https://github.com/SEU-USUARIO](https://github.com/diegovilhalva)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## 📜 License
+
+This project is licensed under the **MIT License**.
