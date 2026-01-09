@@ -8,6 +8,7 @@ import WhyChoose from './WhyCoose/WhyChoose'
 import Price from './Price/Price'
 import ClientReview from './ClientReview/ClientReview'
 import Order from './Order/Order'
+import Contact from './Contact/Contact'
 
 
 const Home = () => {
@@ -22,6 +23,7 @@ const Home = () => {
       <Price />
       <ClientReview />
       <Order />
+      <Contact />
     </div>
   )
 }
