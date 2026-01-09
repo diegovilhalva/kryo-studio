@@ -6,6 +6,7 @@ import About from './About/About'
 import Services from './Services/Services'
 import WhyChoose from './WhyCoose/WhyChoose'
 import Price from './Price/Price'
+import ClientReview from './ClientReview/ClientReview'
 
 
 const Home = () => {
@@ -18,6 +19,7 @@ const Home = () => {
       <Services />
       <WhyChoose />
       <Price />
+      <ClientReview />
     </div>
   )
 }
