@@ -6,7 +6,11 @@ const WhyChoose = () => {
     return (
         <div className="py-20">
             <div className="w-[80%] mx-auto grid lg:grid-cols-2 gap-10 items-center">
-                <div>
+                <div
+                    data-aos="fade-left"
+                    data-aos-anchor-placement="top-center"
+                    data-aos-delay="0"
+                >
                     <h1 className="text-red-500 dark:text-red-300 font-medium">
                         Why Choose Us
                     </h1>
@@ -16,7 +20,7 @@ const WhyChoose = () => {
                     </h1>
 
                     <p className="mt-4 text-gray-500 dark:text-gray-300 leading-7">
-                        Our mission is to help businesses grow through smart, modern, and effective digital solutions. 
+                        Our mission is to help businesses grow through smart, modern, and effective digital solutions.
                         We blend strategy, creativity, and technology to deliver results that truly make an impact.
                     </p>
 
@@ -48,7 +52,7 @@ const WhyChoose = () => {
                                     Dedicated Team
                                 </h1>
                                 <p className="mt-2 text-gray-500 dark:text-gray-300 leading-6 lg:w-[85%]">
-                                    Our specialists work with passion and precision, fully committed to bringing 
+                                    Our specialists work with passion and precision, fully committed to bringing
                                     your vision to life with exceptional attention to detail.
                                 </p>
                             </div>
@@ -73,7 +77,9 @@ const WhyChoose = () => {
                     </div>
                 </div>
 
-                <div>
+                <div data-aos="fade-right"
+                    data-aos-anchor-placement="top-center"
+                    data-aos-delay="100">
                     <Image src={"/images/wc.png"} alt="img" width={1000} height={1000} />
                 </div>
             </div>

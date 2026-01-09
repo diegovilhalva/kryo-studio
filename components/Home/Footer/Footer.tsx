@@ -7,7 +7,7 @@ import { MdKeyboardDoubleArrowRight } from "react-icons/md"
 
 const Footer = () => {
     return (
-        <footer className="pt-16 bg-blue-950 dark:bg-gray-900">
+        <footer className="py-16    bg-blue-950 dark:bg-gray-900">
             <div className="w-[80%] mx-auto grid items-start grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-10">
 
                 {/* LOGO + DESCRIPTION */}
@@ -91,7 +91,7 @@ const Footer = () => {
                                     </p>
                                 </div>
 
-                                <h1 className="mt-2 text-white font-bold">
+                                <h1 className="mt-2 text-sm text-white font-bold">
                                     How Creative Agencies Shape the Future of Digital Brands
                                 </h1>
                             </div>

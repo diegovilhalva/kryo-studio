@@ -6,12 +6,12 @@ const About = () => {
       <div className="w-[80%] mx-auto grid grid-cols-1 lg:grid-cols-2 items-center gap-16">
         
         {/* Left Image */}
-        <div>
+        <div  data-aos="fade-left" data-aos-anchor-placement="top-center">
           <Image src={"/images/a1.png"} alt="About Kryo Studio" width={500} height={500} />
         </div>
 
         {/* Text Content */}
-        <div>
+        <div data-aos="fade-right" data-aos-anchor-placement="top-center" data-aos-delay="200">
           <h1 className="text-purple-800 dark:text-purple-600 font-medium">About Us</h1>
 
           <h1 className="text-3xl sm:text-3xl md:text-5xl lg:text-6xl font-bold text-black dark:text-white mt-2">
