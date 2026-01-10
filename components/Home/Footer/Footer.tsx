@@ -49,7 +49,7 @@ const Footer = () => {
 
                         <div className="flex items-center space-x-5 mb-5 mt-5">
                             <IoMailOpen className="w-5 h-5 text-white" />
-                            <p className="font-medium text-sm text-white">
+                            <p className="font-medium md:text-sm text-[8px] text-white">
                                 example@kryostudio.com
                             </p>
                         </div>
