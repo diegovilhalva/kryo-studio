@@ -13,12 +13,12 @@ const Contact = () => {
       </div>
 
       <div className="w-[90%] md:w-[80%] lg:w-[70%] mx-auto">
-        <Image
+         <Image
           src={"/images/map.png"}
           alt="Global map with workplace locations"
           width={900}
           height={900}
-          className="mx-auto mt-16"
+          className="mx-auto mt-16 w-full h-auto"
           data-aos="zoom-in"
           data-aos-anchor-placement="top-center"
           data-aos-delay="0"

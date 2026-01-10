@@ -27,7 +27,7 @@ The platform showcases services, pricing plans, testimonials, booking options, a
 
 | Technology | Purpose |
 |-----------|---------|
-| **Next.js 14** | App Router, SSR/SSG, optimized routing |
+| **Next.js 16** | App Router, SSR/SSG, optimized routing |
 | **TypeScript** | Type safety and maintainability |
 | **TailwindCSS** | Styling and responsive design |
 | **React Icons** | Iconography |
